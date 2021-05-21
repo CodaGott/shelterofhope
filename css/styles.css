@@ -1,0 +1,164 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/*    
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+} */
+
+
+ul, li {
+    
+    margin: 3.7%;
+    /* margin: 30px 75px 45px 100px; */
+    display: inline;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: aliceblue;
+}
+
+.navbar{
+    background-color: black;
+    border: 2rem solid;
+}
+
+.image-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: antiquewhite;
+}
+
+.image{
+    width: 50%;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    padding-left: 50px;
+    font-weight: bolder;
+}
+
+.img-text{
+    width: 100%;
+}
+
+.donation-btn{
+    padding: 25px;
+    font-size: 20px;
+    width: 35%;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    
+}
+
+.donation-btn:hover a {
+    padding-right: 25px;
+}
+
+.logo{
+    width: 4%;
+    height: 50%;
+}
+
+.more-info{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.more-info h1{
+    text-align: center;
+}
+
+.more-info p{
+    text-align: left;
+    margin: 2rem;
+}
+
+.more-info-btn{
+    align-content: center;
+    padding: 25px;
+    font-size: 15px;
+    width: 40%;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.same{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-partners{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.partners-div{
+    text-align:center;
+    margin: 2rem;
+}
+
+.event-gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.event-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.event-image-1{
+    width: 470px;
+    margin: 15px;
+}
+
+
+
+.our-partners-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #45a1ff;
+    color: #fff;
+}
