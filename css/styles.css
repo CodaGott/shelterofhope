@@ -3,16 +3,10 @@ body {
     margin: 0%;
     padding: 0%;
 }
-/*    
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Text', serif;
-} */
-
 
 ul, li {
     
     margin: 3.7%;
-    /* margin: 30px 75px 45px 100px; */
     display: inline;
     font-size: larger;
 }
@@ -78,7 +72,6 @@ a {
 
 .more-info{
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin: 2rem;
@@ -145,8 +138,6 @@ img{
     width: 470px;
     margin: 15px;
 }
-
-
 
 .our-partners-image{
     display: flex;
