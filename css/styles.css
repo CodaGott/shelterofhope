@@ -153,3 +153,23 @@ footer{
     background-color: #45a1ff;
     color: #fff;
 }
+
+.team-members-image{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-members-image div img{
+    height: 300px;
+    width: 300px;
+    margin: 2rem;
+    border-radius: 50%;
+}
+
+.our-team-text{
+    justify-content: center;
+    display: flex;
+}
